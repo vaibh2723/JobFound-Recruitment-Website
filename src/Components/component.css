@@ -1,0 +1,116 @@
+/* navbar styling  -----------starts */
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-bar-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: #484848;
+}
+
+.nav-bar-logo h1 {
+    color: #4096ff;
+    font-weight: 500;
+}
+
+/* navbar styling    -----------ends */
+
+/* searchbar styling ---------starts */
+
+.search-bar-div {
+    display: grid;
+    background-color: #f1f4f8;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.25rem;
+    gap: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0 4px 6px -1px rgba(241, 244, 248, 0.7), 0 2px 4px -1px rgba(241, 244, 248, 0.06); */
+}
+
+.search-bar-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar-input {
+    width: 100%;
+}
+
+.search-bar-button {
+    color: white;
+    /* background-color: #2a68ff; */
+    /* height: 100%; */
+    /* padding: 5px; */
+    background-color: #1ea7fd; /* The hexadecimal color for blue in Tailwind CSS */
+  
+    /* Setting height to full using h-full */
+    height: 100%;
+  
+    /* Adding padding using p-5 and px-10 */
+    padding: 1.25rem; /* 1.25rem is equivalent to 5 in Tailwind CSS */
+    padding-left: 2.5rem; /* 2.5rem is equivalent to 10 in Tailwind CSS */
+    padding-right: 2.5rem; /* 2.5rem is equivalent to 10 in Tailwind CSS */
+  
+    /* Adding rounded corners using rounded-[10px] */
+    border-radius: 10px;
+  
+    /* Adding text color using text-white */
+    color: #fff; /* The hexadecimal color for white in Tailwind CSS */
+  
+    /* Adding cursor pointer using cursor-pointer */
+    cursor: pointer;
+}
+
+.search-bar-button :hover {
+    background-color: #4096ff;
+    color: white;
+}
+
+.box {
+    /* Adding background color using bg-blue */
+    background-color: #1ea7fd; /* The hexadecimal color for blue in Tailwind CSS */
+  
+    /* Setting height to full using h-full */
+    height: 100%;
+  
+    /* Adding padding using p-5 and px-10 */
+    padding: 1.25rem; /* 1.25rem is equivalent to 5 in Tailwind CSS */
+    padding-left: 2.5rem; /* 2.5rem is equivalent to 10 in Tailwind CSS */
+    padding-right: 2.5rem; /* 2.5rem is equivalent to 10 in Tailwind CSS */
+  
+    /* Adding rounded corners using rounded-[10px] */
+    border-radius: 10px;
+  
+    /* Adding text color using text-white */
+    color: #fff; /* The hexadecimal color for white in Tailwind CSS */
+  
+    /* Adding cursor pointer using cursor-pointer */
+    cursor: pointer;
+  }
+  
+  /* Adding hover effect using hover:bg-blue */
+  /* .box:hover {
+    background-color: #1c64f2; /* A slightly darker blue on hover */
+  }
+   */
+
+/* searchbar styling ---------ends */
