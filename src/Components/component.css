@@ -55,62 +55,173 @@
     width: 100%;
 }
 
-.search-bar-button {
+.search-bar-button button {
     color: white;
-    /* background-color: #2a68ff; */
-    /* height: 100%; */
-    /* padding: 5px; */
-    background-color: #1ea7fd; /* The hexadecimal color for blue in Tailwind CSS */
-  
-    /* Setting height to full using h-full */
+    background-color: #2a68ff; 
     height: 100%;
-  
-    /* Adding padding using p-5 and px-10 */
-    padding: 1.25rem; /* 1.25rem is equivalent to 5 in Tailwind CSS */
-    padding-left: 2.5rem; /* 2.5rem is equivalent to 10 in Tailwind CSS */
-    padding-right: 2.5rem; /* 2.5rem is equivalent to 10 in Tailwind CSS */
-  
-    /* Adding rounded corners using rounded-[10px] */
+    padding: 1.1rem;
+    padding-left: 2.25rem;
+    padding-right: 2.25rem; 
     border-radius: 10px;
-  
-    /* Adding text color using text-white */
-    color: #fff; /* The hexadecimal color for white in Tailwind CSS */
-  
-    /* Adding cursor pointer using cursor-pointer */
     cursor: pointer;
 }
 
 .search-bar-button :hover {
     background-color: #4096ff;
+    color: white !important;
+    cursor: pointer !important;
+}
+
+.search-bar-secDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+.search-bar-single-search {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.search-bar-label {
+    font-weight: 500;
+    color: #808080;
+    align-items: center;
+}
+
+.search-bar-select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: #a5a6a6;
+    border-color: #a5a6a6;
+}
+
+.search-bar-clearall {
+    cursor: pointer;
+    color: #a1a1a1;
+    font-size: 14px;
+}
+/* searchbar styling ---------ends */
+
+
+/* jobcard styling -----------starts */
+
+
+.job-container {
+    padding : 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.job-items {
+    width: 250px !important;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    color: #252b36;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.job-items:hover {
+    background: #2a68ff;
+    color: white !important;
+}
+
+.job-container-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap : 10px;
+}
+
+.job-container-heading {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.job-container-subheading {
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: #ccc;
+    align-items: center;
+    justify-content: center;
+}
+
+.job-container-location {
+    color: #ccc;
+    font-size: 13px;
+}
+
+.job-container-content {
+    color: #959595;
+    font-size: 13px;
+    padding-top: 20px;
+    margin-top: 15px;
+    border-top: 2px solid #959595;
+}
+
+.job-items:hover {
+    .job-container-content {
+        color: white;
+    }
+}
+
+.job-container-company-name {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0px
+}
+
+.job-container-button {
+    border-radius: 10px;
+    padding: 6px;
+    border: 1px solid #808080;
+    margin: 2px;
+
+}
+
+/* jobcard styling ----------ends */
+
+
+/* footer styling ----------starts */
+
+.footer-main {
+    padding: 5rem;
+    margin-bottom: 1rem;
+    background: #2a68ff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 8px;
+    justify-items: center;
+}
+
+.footer-logo-text {
+    font-size: 25px;
+    padding-bottom: 1.5rem;
     color: white;
 }
 
-.box {
-    /* Adding background color using bg-blue */
-    background-color: #1ea7fd; /* The hexadecimal color for blue in Tailwind CSS */
-  
-    /* Setting height to full using h-full */
-    height: 100%;
-  
-    /* Adding padding using p-5 and px-10 */
-    padding: 1.25rem; /* 1.25rem is equivalent to 5 in Tailwind CSS */
-    padding-left: 2.5rem; /* 2.5rem is equivalent to 10 in Tailwind CSS */
-    padding-right: 2.5rem; /* 2.5rem is equivalent to 10 in Tailwind CSS */
-  
-    /* Adding rounded corners using rounded-[10px] */
-    border-radius: 10px;
-  
-    /* Adding text color using text-white */
-    color: #fff; /* The hexadecimal color for white in Tailwind CSS */
-  
-    /* Adding cursor pointer using cursor-pointer */
-    cursor: pointer;
-  }
-  
-  /* Adding hover effect using hover:bg-blue */
-  /* .box:hover {
-    background-color: #1c64f2; /* A slightly darker blue on hover */
-  
-   */
+.footer-logo-subtext{
+    
+}
 
-/* searchbar styling ---------ends */
+/* footer styling -----------ends */
