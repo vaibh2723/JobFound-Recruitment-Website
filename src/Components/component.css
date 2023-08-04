@@ -221,7 +221,40 @@
 }
 
 .footer-logo-subtext{
-    
+    font-size: 13px;
+    opacity: 0.75;
+    color: white;
 }
 
+.footer-grid {
+    font-size: 18px;
+    padding-bottom: 1.5rem;
+    color: white;
+    font-weight: 400;
+}
+
+.footer-grid-list {
+    margin-top: 20px;
+}
+
+
+.footer-grid-list-section {
+    color: white;
+    opacity: 0.75;
+}
+
+.footer-contact {
+    margin-top: 20px;
+}
+.footer-contactinfo {
+    color: white;
+    font-size: 14px;
+    /* margin-top: 20px; */
+}
+
+/* .footer-grid-list-section :hover{
+    opacity: 1 !important;
+    background: none;
+    color: #484848 !important;
+} */
 /* footer styling -----------ends */
