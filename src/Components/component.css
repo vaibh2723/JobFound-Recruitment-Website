@@ -245,16 +245,31 @@
 
 .footer-contact {
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .footer-contactinfo {
     color: white;
     font-size: 14px;
-    /* margin-top: 20px; */
 }
 
-/* .footer-grid-list-section :hover{
-    opacity: 1 !important;
-    background: none;
-    color: #484848 !important;
-} */
+.footer-div-icons{
+    display: flex;
+    gap: 10px;
+    padding: 1rem 0;
+}
+.footer-icons{
+    color: #2a68ff;
+    background: white;
+    padding: 7px;
+    border-radius: 20px;
+    height: 18px;
+}
+
+.footer-contactinfo,
+.footer-icons:hover {
+    background: #2a68ff;
+    color: white;
+    cursor: pointer;
+}
 /* footer styling -----------ends */

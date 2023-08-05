@@ -1,4 +1,6 @@
 import React from 'react'
+import { AiOutlineInstagram, AiOutlineGithub, AiFillTwitterCircle } from "react-icons/ai";
+import { BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -52,6 +54,12 @@ const Footer = () => {
 
         <div className='footer-contact'>
           <span className='footer-contactinfo'>support@jobfound.com</span>
+          <div className='footer-div-icons'>
+            <span className='footer-icons'> <AiOutlineInstagram /></span>
+            <span className='footer-icons'><AiOutlineGithub /></span>
+            <span className='footer-icons'><AiFillTwitterCircle /></span>
+            <span className="footer-icons"><BsFacebook /></span>
+          </div>
         </div>
       </div>
 
